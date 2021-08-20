@@ -1,4 +1,4 @@
-import tok from '/Users/danielvass/danielwebsite/src/pictures/tok.jpeg';
+import tok from '/Users/danielvass/danielwebsite/src/tok.jpeg';
 import first from '/Users/danielvass/danielwebsite/src/pictures/germany/IMG_7227.jpg';
 import jap from '/Users/danielvass/danielwebsite/src/pictures/japanweb.jpg';
 import './App.css';

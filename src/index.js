@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TopBar from './TopBar';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <TopBar />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

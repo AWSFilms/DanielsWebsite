@@ -1,34 +1,19 @@
-import photo from '/Users/danielvass/danielwebsite/src/japanweb.jpg';
+import tok from '/Users/danielvass/danielwebsite/src/pictures/tok.jpeg';
+import first from '/Users/danielvass/danielwebsite/src/pictures/germany/IMG_7227.jpg';
+import jap from '/Users/danielvass/danielwebsite/src/pictures/japanweb.jpg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, {Component} from 'react';
-import {NavBar, Nav, NavItem, NavDropdown, Navbar, Container} from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Card, Button, CardColumns, CardGroup } from 'react-bootstrap';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar bg="light" expand="lg">
-          <Container>
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
-                <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown>
-              </Nav>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-        <img src={photo} alt="logo" />
-      </header>
+    <div class="card">
+      <img src={first} class="img-fluid" alt="Responsive image" />
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
     </div>
   );
 }

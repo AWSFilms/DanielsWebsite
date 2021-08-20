@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className = "hello">
-      <img>src={jap}</img>
+      <img>src="tok.jpeg"</img>
     </div>
   );
 }

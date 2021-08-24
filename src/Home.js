@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pic from './tok.jpeg';
+import pic from './logo.svg';
 
 function About() {
     return (

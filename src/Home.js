@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './pictures/germany.jpeg';
+import logo from './germany.jpeg';
 
 function About() {
     return (

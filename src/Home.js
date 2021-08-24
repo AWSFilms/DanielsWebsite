@@ -4,7 +4,7 @@ import logo from './germany.jpeg';
 function About() {
     return (
         <div className="pic1">
-      <img src={logo} height={200} />
+      <img src={logo} className="img2" />
     </div>
     );
 }

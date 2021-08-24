@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Destinations from './Destinations';
 import About from './About';
 import Home from './Home';
-6
 
 function App() {
   return (

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Destinations from './Destinations';
 import About from './About';
 import Home from './Home';
-import pict from ' /Users/danielvass/danielwebsite/src/IMG_7296.jpg'
+import pict from ' ./IMG_7296.jpg'
 
 function App() {
   return (

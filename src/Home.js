@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import germany from '/Users/danielvass/danielwebsite/src/pictures/germany.jpeg';
+import logo from './logo.svg';
 
 function About() {
     return (
         <div className="pic1">
-      <img src={germany} alt="Girl in a jacket" />
+      <img src={logo} />
     </div>
     );
 }

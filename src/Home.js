@@ -4,7 +4,7 @@ import pic from './tok.jpeg';
 function About() {
     return (
         <div className="pic1">
-      <img src={pic} class="img-fluid" alt="Responsive image" />
+      <img src={pic} class="img2" alt="Responsive image" />
     </div>
     );
 }

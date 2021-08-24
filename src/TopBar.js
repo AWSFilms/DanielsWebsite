@@ -1,36 +1,29 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
+import pic from '/Users/danielvass/danielwebsite/src/IMG_7227.jpg';
 import { NavBar, Nav, NavItem, NavDropdown, Navbar, Container } from 'react-bootstrap';
+import Destinations from './Destinations';
+import { Link } from 'react-router-dom';
+
 
 function TopBar() {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" variant="light">
             <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                </Navbar.Collapse>
+                <Nav className="me-auto">
+                    <Nav.Link href="Home">Home</Nav.Link>
+                    <Nav.Link href="Destinations">Destinations</Nav.Link>
+                    <Nav.Link href="About">About</Nav.Link>
+                </Nav>
             </Container>
         </Navbar>
+        /*
+                  <Nav.Link href="#home">Home</Nav.Link>
+                  <Nav.Link href="#features">Features</Nav.Link>
+                  <Nav.Link href="#pricing">Pricing</Nav.Link>
+                  */
     );
 };
 
 export default TopBar;
-
-/*
-<div className="pic1">
-      <img src={tok} class="img-fluid" alt="Responsive image" />
-    </div>
-    */

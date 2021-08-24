@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import tok from '/tok.jpeg';
+
 
 function About() {
     return (
         <div className="pic1">
-      <img src={tok} class="img-fluid" alt="Responsive image" />
+      <p>Hi</p>
     </div>
     );
 }

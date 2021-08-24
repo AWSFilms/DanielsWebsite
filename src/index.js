@@ -10,6 +10,7 @@ import TopBar from './TopBar';
 
 ReactDOM.render(
   <React.StrictMode>
+    <TopBar />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

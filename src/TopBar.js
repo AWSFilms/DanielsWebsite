@@ -1,7 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
-import pic from '/Users/danielvass/danielwebsite/src/IMG_7227.jpg';
 import { NavBar, Nav, NavItem, NavDropdown, Navbar, Container } from 'react-bootstrap';
 import Destinations from './Destinations';
 import { Link } from 'react-router-dom';

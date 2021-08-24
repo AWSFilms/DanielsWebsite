@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import tok from 'tok.jpeg';
+import tok from '/Users/danielvass/danielwebsite/src/tok.jpeg';
 
 function About() {
     return (

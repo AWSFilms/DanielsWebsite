@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import food from '/Users/danielvass/danielwebsite/src/pictures/newfood.jpg';
 
 
 function About() {
     return (
-        <div className="hello">
-            <p>about</p>
-        </div>
+       <p>hello</p>
     );
 }
 

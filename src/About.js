@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import food from '/Users/danielvass/danielwebsite/src/pictures/newfood.jpg';
 
+import './App.css';
 
 function About() {
     return (

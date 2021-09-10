@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import { NavBar, Nav, NavItem, NavDropdown, Navbar, Container } from 'react-bootstrap';
 import Destinations from './Destinations';
 import { Link } from 'react-router-dom';
-import Logo from '/Users/danielvass/Documents/danielwebsite/src/pictures/Logo.jpeg';
+import Logo from './pictures/Logo.jpeg';
 
 function TopBar() {
     return (

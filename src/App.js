@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Destinations from './Destinations';
 import About from './About';
-import st3 from '/Users/danielvass/Documents/danielwebsite/src/pictures/tokshorter.jpeg';
+import st3 from './pictures/tokshorter.jpeg';
 
 
 

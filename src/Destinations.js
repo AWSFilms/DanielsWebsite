@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Button, CardColumns, CardGroup, Row, Col } from 'react-bootstrap';
-import screen from '/Users/danielvass/Documents/danielwebsite/src/pictures/city.jpeg';
+import screen from './pictures/city.jpeg';
 function Destinations() {
     return (
         <div className="hello">

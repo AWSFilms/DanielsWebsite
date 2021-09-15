@@ -21,7 +21,6 @@ function TopBar() {
                     Fly Low
                 </Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="Destinations">Destinations</Nav.Link>
                     <Nav.Link href="About">About</Nav.Link>
                 </Nav>

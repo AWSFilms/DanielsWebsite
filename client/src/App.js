@@ -23,8 +23,8 @@ function App() {
 }
 function Home() {
   return (
-      <div className="TopPart">
-        <div className="topTop">
+    <div className="TopPart">
+      <div className="topTop">
         <Card className="text-white">
           <Card.Img src={st3} className="img2" alt="Card image" />
           <Card.ImgOverlay>
@@ -37,13 +37,16 @@ function Home() {
             <Card.Text>Last updated 3 mins ago</Card.Text>
           </Card.ImgOverlay>
         </Card>
-        </div>
-        <div className="middleApp">
-        <h1>Get to know the world</h1>
-        <hr />
-        <p>Hello</p>
-        </div>
       </div>
+      <div className="middleApp">
+        <h1>Get to know the world</h1>
+        <label>Movie Name:</label>
+        <input type="text" name="movieName" />
+        <label>Movie Review:</label>
+        <input type="text" name="review" />
+        <button>Submit</button>
+      </div>
+    </div>
   );
 }
 export default App;

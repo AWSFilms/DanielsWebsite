@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Card, Button, CardColumns, CardGroup, Row, Col } from 'react-bootstrap';
-import screen from '/Users/danielvass/Documents/danielwebsite/src/pictures/city.jpeg';
+import screen from './pictures/city.jpeg';
 function Destinations() {
     return (
-        <div className="hello">
+        <><div className="hello">
             <Row xs={1} md={2} className="g-4">
-                {Array.from({ length: 4 }).map((_, idx) => (
+                {Array.from({ length: 4 }).map((_) => (
                     <Col>
                         <Card>
-                            <Card.Img variant="top" src={screen}/>
+                            <Card.Img variant="top" src={screen} />
                             <Card.Body>
                                 <Card.Title>Card title</Card.Title>
                                 <Card.Text>
@@ -21,6 +21,10 @@ function Destinations() {
                 ))}
             </Row>
         </div>
+        <h1>wwsadde</h1>
+        <div className="12">
+
+            </div></>
     );
 }
 
